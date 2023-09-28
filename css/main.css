@@ -1,0 +1,64 @@
+.top-main {
+    width: 100%;
+    height: 80vh;
+    color: rgb(12, 83, 154);
+    background-color: rgb(245, 245, 245);
+}
+
+.top-main-left {
+    float: left;
+    width: 50%;
+    padding-left: 15rem;
+    padding-top: 8rem;
+}
+
+.top-main-left h4 {
+    color: rgb(187, 208, 240);
+    font-size: 0.8rem;
+    padding: 1rem 0;
+
+}
+
+.top-main-left h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.input{
+    border-style: none;
+    height: 2.5rem;
+    width: 20rem;
+    color: rgb(187, 208, 240);
+    background-color: rgb(220, 227, 236);
+}
+
+.button-main {
+    color: white;
+    background-color: rgb(12, 83, 154);
+    border-style: none;
+    width: 6.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.top-main-left p {
+    color: rgb(109, 151, 200);
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+
+
+.top-main-right {
+    float: left;
+    width: 50%;
+}
+
+
+.bottom-main {
+    width: 100%;
+    color: rgb(12, 83, 154);
+    background-color: rgb(245, 245, 245);
+}
