@@ -1,0 +1,75 @@
+section {
+    background-color: white;
+    color: rgb(12, 83, 154);
+    height: 30vh;
+    width: 100%;
+}
+
+section h1 {
+    padding-left: 15rem;
+    padding-top: 4rem;
+    font-size: 3rem;
+    padding-bottom: 1rem; 
+}
+
+section p {
+    padding-left: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+    color: rgb(187, 208, 240);
+}
+
+section center div {
+    background-color: rgb(245, 245, 245);
+    width: 70%;
+    height: 10vh;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .header-right {
+        display: block; /* Change to block-level display for stacked items */
+        margin-right: 0; /* Remove right margin for stacked items */
+        margin-bottom: 10px; /* Add some space between stacked items */
+        text-align: center;
+        width: 100%;
+        margin: 0; 
+    }
+    .header-center, .header-left {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+    .top-main {
+        display: block; /* Change to block-level display for stacked items */
+        margin-right: 0; /* Remove right margin for stacked items */
+        margin-bottom: 10px; /* Add some space between stacked items */    
+        padding: 0;
+    }
+
+    .top-main-left {
+        display: block; /* Change to block-level display for stacked items */
+        margin-right: 0; /* Remove right margin for stacked items */
+        margin-bottom: 10px; /* Add some space between stacked items */    
+        padding: 0;
+        text-align: left;
+    }
+
+    .button-main {
+            display: block; /* Change to block-level display for stacked items */
+            margin-right: 0; /* Remove right margin for stacked items */
+            margin-bottom: 10px; /* Add some space between stacked items */
+          }
+    }
+
+    section {
+            display: block; /* Change to block-level display for stacked items */
+            margin-right: 0; /* Remove right margin for stacked items */
+            margin-bottom: 10px; /* Add some space between stacked items */
+          }
+
+    }
+  }

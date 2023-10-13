@@ -1,9 +1,21 @@
+main {
+    background-color: rgb(245, 245, 245);
+    color: rgb(12, 83, 154);
+    height: 80vh;
+    width: 100%;
+}
+
+
 .top-main {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     color: rgb(12, 83, 154);
     background-color: rgb(245, 245, 245);
 }
+
+
+/*-------LEFT SIDE OF MAIN-------*/
+
 
 .top-main-left {
     float: left;
@@ -50,15 +62,53 @@
 }
 
 
+/*-------RIGHT SIDE OF MAIN-------*/
 
 .top-main-right {
     float: left;
     width: 50%;
 }
 
+/*-------BOTTOM SIDE OF MAIN-------*/
+
 
 .bottom-main {
     width: 100%;
+    height: 20vh;
     color: rgb(12, 83, 154);
     background-color: rgb(245, 245, 245);
+    padding: 3rem 15rem;
+    display: inline-block;
+}
+
+
+.bottom-main-section{
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.bottom-main-section h3, .bottom-main-section-1 h3, .bottom-main-section-2 h3 {
+    font-size: 1.2rem;
+    padding: 0.7rem 0;
+}
+
+.bottom-main-section p, .bottom-main-section-1 p, .bottom-main-section-2 p {
+    font-size: 1rem ;
+    padding: 0 0 0.7rem 0;
+}
+
+.bottom-main-section-1 {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.bottom-main-section-2 {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+    padding-left: 5rem;
 }
